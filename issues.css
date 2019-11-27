@@ -102,3 +102,6 @@ width: auto;
   margin-right: 50px;
   margin-bottom: 20px;
 }
+h1:hover{
+  opacity: 0.5;
+}

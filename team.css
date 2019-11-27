@@ -111,3 +111,6 @@ a:visited{
   font-family: 'Montserrat', sans-serif;
   font-size: 50px;
 }
+h1:hover{
+  opacity: 0.5;
+}

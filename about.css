@@ -80,3 +80,6 @@ a:visited{
   color: #e20000;
   text-decoration: none;
 }
+h1:hover{
+  opacity: 0.5;
+}
