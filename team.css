@@ -85,9 +85,29 @@ a:visited{
   justify-content: flex-start;
   flex-direction: row;
   margin-top: 10px;
+  margin-left: 50px;
 }
 .personFlexR{
+    margin-top: 10px;
   display: flex;
   justify-content: flex-end;
   flex-direction: row;
+  margin-right: 50px;
+}
+.flexRow{
+  display: flex;
+  flex-direction: row;
+}
+.profile{
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10%;
+  border: 5px solid  #0d8189;
+}
+.textL{
+  margin-left: 50px;
+  margin-top: 100px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
 }
