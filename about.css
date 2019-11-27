@@ -1,0 +1,82 @@
+body.preloader-site {
+    overflow: hidden;
+}
+
+.preloader-wrapper {
+    height: 100%;
+    width: 100%;
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+}
+
+.preloader-wrapper .preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 120px;
+}
+body{
+ width: auto;
+   background: #e0d7d7;
+}
+.logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 80px;
+  width: 80px;
+}
+h1{
+  margin-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #e20000;
+}
+h2{
+  margin-top: 30px;
+  margin-left: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: black;
+}
+.menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 90px;
+  margin-left: -50px;
+}
+.change{
+  color: black;
+  margin-top: -110px;
+  cursor: pointer;
+}
+.change:visited{
+  color: black;
+  text-decoration: none;
+}
+.change:link{
+  color: black;
+  text-decoration: none;
+}
+.flexCenter{
+  display: flex;
+  justify-content: center;
+}
+h2:hover{
+  opacity: 0.5;
+}
+a:link{
+ color: #e20000;
+ text-decoration: none;
+}
+a:visited{
+  color: #e20000;
+  text-decoration: none;
+}
