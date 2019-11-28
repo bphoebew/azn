@@ -21,7 +21,8 @@ body.preloader-site {
     width: 120px;
 }
 body{
-  background: #e0d7d7;
+  /* background: #e0d7d7; */
+  background: #303030;
 }
 .dot {
   margin-top: 100px;
