@@ -22,7 +22,7 @@ body.preloader-site {
 }
 body{
   /* background: #e0d7d7; */
-   background: #e0d7d7;
+   background: #070820;
 }
 .dot {
   margin-top: 100px;
@@ -54,7 +54,7 @@ h2{
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   text-align: center;
-  color: black;
+  color: white;
 }
 h2:hover{
   opacity: 0.5;

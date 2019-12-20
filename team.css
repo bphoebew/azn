@@ -22,13 +22,14 @@ body.preloader-site {
 }
 body{
  width: auto;
-   background: #e0d7d7;
+   background: #070820;
 }
 .logo {
   margin-top: 10px;
+  margin-left: 50px;
   margin-bottom: 10px;
-  height: 80px;
-  width: 80px;
+  height: 130px;
+  width: 130px;
 }
 h1{
   margin-top: 0px;
@@ -38,19 +39,18 @@ h1{
   color: #e20000;
 }
 h2{
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-left: 50px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 15px;
+  font-size: 30px;
   text-align: center;
-  color: black;
+  color: white;
 }
 .menu{
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  margin-top: 90px;
-  margin-left: -50px;
+  justify-content: flex-end;
+  margin-right: 50px;
 }
 .change{
   color: black;
@@ -80,37 +80,60 @@ a:visited{
   color: #e20000;
   text-decoration: none;
 }
-.personFlexL{
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  margin-top: 10px;
-  margin-left: 50px;
+h1:hover{
+  opacity: 0.5;
 }
-.personFlexR{
-    margin-top: 10px;
+#one .title{
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  font-size: 200px;
+  color:#0d8189;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  letter-spacing:25px;
+    font-family: 'Montserrat', sans-serif;
+}
+#one, #two{
+  height: 100vh;
+  width: 100%;
+}
+.titleGroup{
+  margin: 0px;
+  color:#e20000;
+  font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 50px;
+  /* margin-bottom: 10px; */
+}
+.name{
+  margin-top: 50px;
+  color:white;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  /* margin-left: 100px; */
+}
+.flexCol{
   display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-  margin-right: 50px;
+  flex-direction: column;
+  justify-content: center;
 }
 .flexRow{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 .profile{
-  width: 300px;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 10%;
-  border: 5px solid  #0d8189;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
 }
-.textL{
+.profileT{
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
   margin-left: 50px;
-  margin-top: 100px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 50px;
-}
-h1:hover{
-  opacity: 0.5;
 }
