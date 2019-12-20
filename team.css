@@ -137,3 +137,22 @@ h1:hover{
   height: 250px;
   margin-left: 50px;
 }
+.flexOthers{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.profileS{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.nameS{
+  margin-top: 50px;
+  color:white;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  /* margin-left: 100px; */
+}
