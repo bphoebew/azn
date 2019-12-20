@@ -21,8 +21,7 @@ body.preloader-site {
     width: 120px;
 }
 body{
-  /* background: #e0d7d7; */
-   background: #070820;
+  background-color: #070820;
 }
 .dot {
   margin-top: 100px;
@@ -77,4 +76,7 @@ h2:hover{
 .change:link{
   color: black;
   text-decoration: none;
+}
+#section02{
+  background-color: #070820;
 }
