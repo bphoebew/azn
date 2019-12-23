@@ -121,6 +121,12 @@ h1:hover{
   flex-direction: column;
   justify-content: center;
 }
+.flexColT{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10px;
+}
 .flexRow{
   display: flex;
   flex-direction: row;
@@ -135,6 +141,7 @@ h1:hover{
   border-radius: 50%;
   width: 250px;
   height: 250px;
+  object-fit: cover;
   margin-left: 50px;
 }
 .flexOthers{
@@ -146,6 +153,7 @@ h1:hover{
   border-radius: 50%;
   width: 200px;
   height: 200px;
+    object-fit: cover;
 }
 .nameS{
   margin-top: 50px;
@@ -155,4 +163,7 @@ h1:hover{
   margin-bottom: 20px;
   font-family: 'Montserrat', sans-serif;
   /* margin-left: 100px; */
+}
+.description{
+  text-align: center;
 }
