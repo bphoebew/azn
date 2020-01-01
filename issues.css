@@ -97,7 +97,7 @@ width: auto;
 .item{
   display: inline-block;
   width: 380px;
-  height: 500px;
+  height: auto;
   border:1px solid;
   border-radius: 10%;
   margin-right: 50px;
@@ -106,7 +106,7 @@ width: auto;
 }
 .issue{
   width: 380px;
-  height: 500px;
+  height: auto;
     border-radius: 10%;
 }
 h1:hover{
