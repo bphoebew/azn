@@ -5,5 +5,5 @@ issueOne.on("click", showOne);
 
 function showOne(){
   container.empty();
-  container.append(`<h4 class = "titleIssue">Issue One:</h4>`)
+  container.append(`<h4 class = "titleIssue">Coming Soon!</h4>`)
 }
