@@ -39,7 +39,6 @@ h1{
   color: #e20000;
 }
 h2{
-  /* margin-top: 30px; */
   margin-left: 50px;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
@@ -51,7 +50,6 @@ h2{
   flex-direction: row;
   justify-content: flex-end;
   margin-right: 50px;
-  /* margin-top: 10px; */
 }
 .change{
   color: black;
@@ -83,7 +81,6 @@ a:visited{
 }
 #items{
   margin-left: 5%;
-  /* margin-top: -1%; */
 overflow-x: scroll;
 width: auto;
    white-space: nowrap;
@@ -102,7 +99,6 @@ width: auto;
   border-radius: 10%;
   margin-right: 50px;
   margin-top: 70px;
-  /* margin-bottom: 20px; */
 }
 .issue{
   width: 380px;
@@ -149,7 +145,6 @@ flex-direction: row;
   display: flex;
 
     width: 1000px;
-    /* border: 2px solid white; */
 }
 .titleIssue{
   margin-left: 5%;
@@ -161,4 +156,56 @@ flex-direction: row;
 }
 #issueOne{
   cursor: pointer;
+}
+.book {
+  margin: auto;
+  max-width: 800px;
+     background: black;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.hard {
+  background-color: #019CB2;
+}
+
+.pg {
+  background-color: #fff;
+}
+h4{
+  padding-top: 30px;
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  color: white;
+}
+.pageOne{
+  margin:0;
+  display:block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility:hidden;
+  object-fit: cover;
+}
+.pageTwo{
+  margin:0;
+  display:block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility:hidden;
+}
+.pageThree{
+  margin:0;
+  display:block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* padding-left: 6px; */
+  backface-visibility:hidden;
 }
